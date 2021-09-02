@@ -14,10 +14,10 @@ To implement a new feature:
 6. Any bug fixes in a separate commit, with a well-named message
 7. **Pull from main to get branch up to date, commit this change**
 8. Submit pull request with detailed message outlining:
-  * Description of purpose of PR
-  * New changes
-  * Outstanding changes
-  * Any other comments
+    * Description of purpose of PR
+    * New changes
+    * Outstanding changes
+    * Any other comments
 
 ## Naming and typing conventions
 * `variableNames` in camelCase
@@ -36,10 +36,10 @@ To implement a new feature:
 * One space on either side of `=`, `==`, `+`, `-`, `+=`, `-=`, etc
 * One space after every comma `my_func(var1, var2, var3)`
 * Import statments should be grouped in the following order:
-1. Standard library imports (os, json, sys)
-2. Third-party imports (tensorflow, scipy, numpy - anything you need pip to install)
-3. Local file imports (modules.TargetAcquisition, YOLOv2Assets)
-* Try to keep imports in alpha order
+    1. Standard library imports (os, json, sys)
+    2. Third-party imports (tensorflow, scipy, numpy - anything you need pip to install)
+    3. Local file imports (modules.TargetAcquisition, YOLOv2Assets)
+        * Try to keep imports in alpha order
 ```
 import os
 import sys
